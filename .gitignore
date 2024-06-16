@@ -1,0 +1,7 @@
+*.txt
+*.7z
+*.rar
+
+output/
+venv_pytools/
+programas/
