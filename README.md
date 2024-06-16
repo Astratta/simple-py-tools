@@ -1,2 +1,2 @@
-# simple-py-tools
+# Simple PyTools
 Collection of python scripts
