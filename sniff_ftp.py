@@ -19,15 +19,13 @@ def sniffer(pkt: scapy.packet.Packet) -> None:
     passwd = re.findall('(?i)PASS (.*)', raw)
 
     if user:
-        print(f">> ftp login detected on : {str(dest)}")
+        print(f">> FTP LOGIN DETECTED ON : {str(dest)}")
         print(f">> USER {str(user[0])}")
     elif passwd:
         print(f">> PASS {str(passwd[0])}")
 
 def main() -> None:
     args = argparser()
-
-    print(args.interface)
 
     try:
         print(">> sniffing...")
