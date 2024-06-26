@@ -5,3 +5,4 @@
 output/
 venv_pytools/
 programas/
+__pycache__/
